@@ -1,0 +1,1199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ==================== Mace =================== -->
+
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>BotchJob_DivineOrderMace</defName>
+    <label>divine order mace</label>
+    <description>A sturdy mace forged in the style of the Divine Order, it inflicts blunt damage which is effective against armored foes.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/DivineOrderMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>120</costStuffCount>
+	<costList>
+	<Gold>3</Gold>
+	</costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+     <li>BotchJob_DivineOrderWeapon</li>
+	<li>BotchJob_DivineOrderMace</li>
+    </weaponTags>
+	<weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
+  </ThingDef>
+
+
+<!-- ==================== Shortsword =================== -->
+
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>BotchJob_DivineOrderShortsword</defName>
+    <label>divine order shortsword</label>
+	 <description>A shortsword forged in the style of the Divine order. It is light and easy to handle, making it an ideal weapon for nobles and commoners.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/DivineOrderShortsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+ 	<shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+	<weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <weaponTags>
+     <li>BotchJob_DivineOrderWeapon</li>
+	<li>BotchJob_DivineOrderShortsword</li>
+    </weaponTags>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+    <costStuffCount>100</costStuffCount>
+<costList>
+	<Gold>3</Gold>
+	</costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <relicChance>2</relicChance>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
+  </ThingDef>
+
+
+
+<!-- ==================== Longsword =================== -->
+
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>BotchJob_DivineOrderLongsword</defName>
+    <label>divine order longsword</label>
+    <description>A fine longsword forged in the style of the Divine order, a balanced weapon capable of slashing or stabbing.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/DivineOrderLongsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+ 	<shaderType>CutoutComplex</shaderType>
+	<drawSize>1.3</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+	<weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <weaponTags>
+     <li>BotchJob_DivineOrderWeapon</li>
+	<li>BotchJob_DivineOrderLongsword</li>
+    </weaponTags>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+    <costStuffCount>150</costStuffCount>
+<costList>
+	<Gold>5</Gold>
+	</costList>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+    <relicChance>2</relicChance>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
+  </ThingDef>
+
+
+<!-- ==================== Battle Standard =================== -->
+
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>BotchJob_DivineOrderBattleStandard</defName>
+    <label>divine order battle standard</label>
+    <description>A long pike that bears the flag of the divine order. It is usually held high by standard bearers when marching into battle but is also an effective melee weapon, capable of delivering deadly thrusts from range.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/DivineOrderBattleStandard</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	<shaderType>CutoutComplex</shaderType>
+	<drawSize>1.5</drawSize>
+    </graphicData>
+	    <uiIconScale>0.75</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+         <li>BotchJob_DivineOrderBattleStandard</li>
+    </weaponTags>
+    <costStuffCount>150</costStuffCount>
+<costList>
+	<Gold>5</Gold>
+	</costList>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>24</power>
+        <armorPenetration>0.20</armorPenetration>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  
+  <!-- ==================== Warhammer =================== -->
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+	<defName>BotchJob_DivineOrderWarhammer</defName>
+  <label>divine order warhammer</label>
+  <techLevel>Medieval</techLevel>
+  <description>A large, two handed warhammer forged in the style of the Divine order. It can deliver crushing, blunt strikes that are very effective against armored foes.</description>
+  <graphicData>
+    <texPath>Things/Item/Equipment/WeaponMelee/DivineOrderWarhammer</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>1.3</drawSize>
+  </graphicData>
+  <statBases>
+    <WorkToMake>28000</WorkToMake>
+    <Mass>6</Mass>
+  </statBases>
+  <costStuffCount>200</costStuffCount>
+  <costList>
+	<Gold>5</Gold>
+	</costList>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+  <weaponTags>
+     <li>BotchJob_DivineOrderWarhammer</li>
+  </weaponTags>
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>12</power>
+      <cooldownTime>2.6</cooldownTime>
+    </li>
+    <li>
+      <label>head</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Blunt</li>
+      </capacities>
+      <power>26</power>
+      <cooldownTime>2.8</cooldownTime>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+</ThingDef>
+  
+  <!-- ==================== Greatsword =================== -->
+  
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	
+	<techLevel>Medieval</techLevel>
+  <defName>BotchJob_DivineOrderGreatsword</defName>
+  <label>divine order greatsword</label>
+  <description>A large, two handed greatsword forged in the style of the Divine order. It is slow to swing but in skilled hands it can deliver deadly, sweeping slashes.</description>
+  <graphicData>
+    <texPath>Things/Item/Equipment/WeaponMelee/DivineOrderGreatsword</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>1.1</drawSize>
+  </graphicData>
+  <statBases>
+    <WorkToMake>28000</WorkToMake>
+    <Mass>6</Mass>
+  </statBases>
+  <costStuffCount>200</costStuffCount>
+  <costList>
+	<Gold>5</Gold>
+	</costList>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+
+  <weaponTags>
+     <li>BotchJob_DivineOrderGreatsword</li>
+  </weaponTags>
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>edge</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Cut</li>
+      </capacities>
+      <power>30</power>
+      <cooldownTime>2.85</cooldownTime>
+      <armorPenetration>0.25</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+</ThingDef>
+
+
+<!-- ==================== Pistol =================== -->
+
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>BotchJob_DivineOrderPistol</defName>
+    <label>divine order pistol</label>
+    <description>An ornate pistol with a flintlock firing mechanism. It fires a powerful shot that can pierce most conventional armor but is slow to reload.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/DivineOrderPistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	<drawSize>0.9</drawSize>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+    </statBases>
+     <weaponTags>
+         <li>BotchJob_DivineOrderPistol</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+    <costList>
+	<WoodLog>100</WoodLog>
+      <Steel>50</Steel>
+      <Gold>5</Gold>
+	<DankPyon_ComponentBasic MayRequire="DankPyon.Medieval.Overhaul">2</DankPyon_ComponentBasic>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite Inherit="False">BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <displayPriority>400</displayPriority>
+	  <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+	<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BotchJob_DivineOrderPistolBullet</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>20</range>
+        <soundCast>BotchJob_DivineOrderPistolShot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	
+  </ThingDef>
+
+
+<ThingDef ParentName="BaseBullet">
+    <defName>BotchJob_DivineOrderPistolBullet</defName>
+    <label>pistol bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+	   <armorPenetrationBase>0.3</armorPenetrationBase>
+      <stoppingPower>2</stoppingPower>
+      <speed>70</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/BotchJob_DivineOrderPistolBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+
+<SoundDef>
+<defName>BotchJob_DivineOrderPistolShot</defName>
+<context>MapOnly</context>
+<subSounds>
+     <li>
+	<grains>
+	  <li Class="AudioGrain_Folder">
+	  <clipFolderPath>Misc/BotchJob_DivineOrderPistolShot</clipFolderPath>
+          </li>
+	</grains>
+        <volumeRange>25</volumeRange>
+	<pitchRange>1.1~1.3</pitchRange>
+     </li>
+</subSounds>
+</SoundDef>
+
+
+
+<!-- ==================== Crossbow =================== -->
+
+
+
+<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>BotchJob_DivineOrderCrossbow</defName>
+    <label>divine order crossbow</label>
+    <description>A crossbow forged in the style of the Divine Order. It is easier to use than a bow and is capable of piercing armor but is slower to re-arm.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/DivineOrderCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>100</WoodLog>
+      <Steel>30</Steel>
+      <Gold>3</Gold>
+	</costList>
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.76</AccuracyMedium>
+      <AccuracyLong>0.54</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+  
+    <weaponClasses>
+       <li>RangedLight</li>
+    </weaponClasses>
+	<weaponTags>
+         <li>BotchJob_DivineOrderWeapon</li>
+	<li>BotchJob_DivineOrderCrossbow</li>
+    </weaponTags>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BotchJob_DivineOrderCrossbowBolt</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>29</range>
+        <soundCast>BotchJob_DivineOrderCrossbowBolt</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>BotchJob_DivineOrderCrossbowBolt</defName>
+    <label>hunting bow arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/BotchJob_DivineOrderCrossbowBolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>19</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>  
+
+<SoundDef>
+<defName>BotchJob_DivineOrderCrossbowBolt</defName>
+<context>MapOnly</context>
+<subSounds>
+     <li>
+	<grains>
+	  <li Class="AudioGrain_Clip">
+	  <clipPath>Misc/BotchJob_DivineOrderCrossbowBolt</clipPath>
+          </li>
+	</grains>
+        <volumeRange>25</volumeRange>
+	<pitchRange>0.9~1.1</pitchRange>
+     </li>
+</subSounds>
+</SoundDef>
+
+<!-- ==================== Hand Crossbow =================== -->
+
+
+
+<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>BotchJob_DivineOrderHandCrossbow</defName>
+    <label>divine order hand crossbow</label>
+    <description>A small crossbow designed to be held in one hand. It has less range and damage than a regular crossbow but has a faster fire rate.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/DivineOrderHandCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+	 <uiIconScale>1.2</uiIconScale>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>50</WoodLog>
+      <Steel>20</Steel>
+      <Gold>1</Gold>
+	</costList>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponClasses>
+       <li>RangedLight</li>
+    </weaponClasses>
+	<weaponTags>
+         <li>BotchJob_DivineOrderWeapon</li>
+	<li>BotchJob_DivineOrderHandCrossbow</li>
+    </weaponTags>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BotchJob_DivineOrderHandCrossbowBolt</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>18</range>
+        <soundCast>BotchJob_DivineOrderCrossbowBolt</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>BotchJob_DivineOrderHandCrossbowBolt</defName>
+    <label>crossbow bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/BotchJob_DivineOrderCrossbowBolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>  
+
+
+<!-- ==================== Bomb =================== -->
+
+<ThingDef ParentName="BaseMakeableGrenade">
+    <defName>BotchJob_DivineOrderCleansingConcoction</defName>
+    <label>cleansing concoction</label>
+    <description>An unstable alchemical concoction within a sealed container. It can be ignited and thrown to produce a searing blast of light after a few seconds, burning and temporarily blinding those caught in the blast.\n\nWithin the divine order, use of this concoction is the primary way of "cleansing" what they deem to be corruption. As such, the method of creating it is a closely guarded secret.</description>
+    <possessionCount>1</possessionCount>
+	<tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/DivineOrderCleansingConcoction</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.9</drawSize>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+    <soundInteract>Interact_MolotovCocktail</soundInteract>
+    <techLevel>Medieval</techLevel>
+	 <recipeMaker>
+	 <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+      <researchPrerequisite>BotchJob_DivineOrderSmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+	<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+    </recipeMaker>
+	 <costList>
+      <Silver>5</Silver>
+      <Gold>5</Gold>
+	  <BotchJob_SacredTablet>1</BotchJob_SacredTablet>
+	   </costList>
+    <statBases>
+	 <WorkToMake>20000</WorkToMake>
+      <Mass>3</Mass>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+       <li>BotchJob_DivineOrderCleansingConcoction</li>
+    </weaponTags>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+	<weaponClasses>
+       <li>Ranged</li>
+    </weaponClasses>
+	<thingCategories>
+	<li>Grenades</li>
+	</thingCategories>
+    <verbs>
+      <li>
+        <label>throw concoction</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>15</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>3</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <soundCast>ThrowMolotovCocktail</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>BotchJob_DivineOrderCleansingConcoctionThrown</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3</explosiveRadius>
+        <explosiveDamageType>BotchJob_DivineOrderCleansingBlast</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+		<startWickOnDamageTaken>
+          <li>Flame</li>
+        </startWickOnDamageTaken>
+        <startWickHitPointsPercent>0.733</startWickHitPointsPercent>
+        <wickTicks>70~150</wickTicks>
+      </li>
+    </comps>
+    <rotateInShelves>false</rotateInShelves>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+  <defName>BotchJob_DivineOrderCleansingConcoctionThrown</defName>
+    <label>cleansing concoction</label>
+    <graphicData>
+      <texPath>Things/Projectile/BotchJob_DivineOrderCleansingConcoctionThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.9</drawSize>
+    </graphicData>
+    <projectile>
+      <explosionRadius>3</explosionRadius>
+      <damageDef>BotchJob_DivineOrderCleansingBlast</damageDef>
+      <shadowSize>0.6</shadowSize>
+      <screenShakeFactor>0.5</screenShakeFactor>
+	  <speed>15</speed>
+	   <explosionDelay>300</explosionDelay>
+    </projectile>
+  </ThingDef>
+  
+  <DamageDef>
+    <defName>BotchJob_DivineOrderCleansingBlast</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>cleansing blast</label>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>true</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been cleansed.</deathMessage>
+    <hediff>Burn</hediff>
+    <armorCategory>Heat</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>35</defaultDamage>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+    <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BotchJob_DivineOrderCleansingBlast</explosionCellFleck>
+    <explosionColorCenter>(1, 0.9, 0.5)</explosionColorCenter>
+    <explosionColorEdge>(1, 1, 0.8)</explosionColorEdge>
+    <soundExplosion>BotchJob_DivineOrderCleansingConcoctionExplosion</soundExplosion>
+    <combatLogRules>Damage_Flame</combatLogRules>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	<additionalHediffs>
+	<li>
+        <hediff>BotchJob_BlindingFlash</hediff>
+        <severityPerDamageDealt>0.1</severityPerDamageDealt>
+        <inverseStatScaling>true</inverseStatScaling>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  
+  <HediffDef>
+    <defName>BotchJob_BlindingFlash</defName>
+    <label>blinding light</label>
+    <labelNoun>flash</labelNoun>
+    <description>Exposure to the blinding light has caused temporary impaired vision.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <battleStateLabel>blind</battleStateLabel>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>200~600</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+	<stages>
+	 <li>
+	<capMods>
+		   <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.7</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	</HediffDef>
+  
+ <FleckDef ParentName="FleckBase_Thrown">
+    <defName>BotchJob_DivineOrderCleansingBlast</defName>
+     <fleckSystemClass>FleckSystemThrown</fleckSystemClass>
+    <fadeInTime>0.05</fadeInTime>
+    <fadeOutTime>0.4</fadeOutTime>
+    <solidTime>0.2</solidTime>
+	<growthRate>2</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/BotchJob_DivineOrderCleansingBlast</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+  </FleckDef>
+  
+  <SoundDef>
+<defName>BotchJob_DivineOrderCleansingConcoctionExplosion</defName>
+<context>MapOnly</context>
+<subSounds>
+     <li>
+	<grains>
+	  <li Class="AudioGrain_Folder">
+	  <clipFolderPath>Misc/BotchJob_DivineOrderCleansingConcoction</clipFolderPath>
+          </li>
+	</grains>
+        <volumeRange>50</volumeRange>
+	<pitchRange>1.2~1.4</pitchRange>
+     </li>
+</subSounds>
+</SoundDef>
+
+<!-- ==================== Staff =================== -->
+
+<ThingDef ParentName="BaseMeleeWeapon">
+    <defName>BotchJob_DivineJudgementStaff</defName>
+    <label>staff of divine judgement</label>
+    <description>The ultimate weapon of the Divine order. A grand, ornate staff that radiates divine power.\n\nWielding this staff grants the ability to call upon the power of the gods to deliver divine judgement, devastating an area with cleansing light.</description>
+    <possessionCount>1</possessionCount>
+	<tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/DivineStaff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.4</drawSize>
+    </graphicData>
+    <uiIconScale>0.9</uiIconScale>
+    <techLevel>Medieval</techLevel>
+	 <recipeMaker>
+      <researchPrerequisite>BotchJob_DivineOrderStaffResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>16</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+	    <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
+      </recipeUsers>
+     </recipeMaker>
+	 <costList>
+	  <WoodLog>150</WoodLog>
+      <Gold>60</Gold>
+	  <Cloth>50</Cloth>
+	  <BotchJob_SacredTablet>5</BotchJob_SacredTablet>
+	   </costList>
+    <statBases>
+	 <WorkToMake>100000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>1</AccuracyTouch>
+		<AccuracyShort>1</AccuracyShort>
+		<AccuracyMedium>1</AccuracyMedium>
+		<AccuracyLong>1</AccuracyLong>
+		<RangedWeapon_Cooldown>6.0</RangedWeapon_Cooldown>
+		<Beauty>50</Beauty>
+    </statBases>
+    <weaponTags>
+       <li>BotchJob_DivineJudgementStaff</li>
+    </weaponTags>
+	<tradeTags>
+	<li>BotchJob_DivineOrderWeapon</li>
+	</tradeTags>
+	<weaponClasses>
+       <li>Ranged</li>
+    </weaponClasses>
+	<thingCategories>
+		<li>WeaponsRanged</li>
+	</thingCategories>
+    <verbs>
+      <li>
+        <label>divine judgement</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>34</range>
+        <forcedMissRadius>1</forcedMissRadius>
+        <warmupTime>12</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <aimingChargeMote>BotchJob_StaffChargeMote</aimingChargeMote>
+		<aimingTargetMote>BotchJob_StaffTargetMote</aimingTargetMote>
+		<burstShotCount>1</burstShotCount>
+		<beamTargetsGround>true</beamTargetsGround>
+		<soundAiming>BotchJob_DivineStaffCharge</soundAiming>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+		  <canTargetPawns>false</canTargetPawns>
+        </targetParams>
+        <defaultProjectile>BotchJob_DivineOrderStaffThrown</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+		<minRange>5.9</minRange>
+      </li>
+    </verbs>
+	<tools>
+		<li>
+			<label>shaft</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2.6</cooldownTime>
+		</li>
+	</tools>
+    <rotateInShelves>false</rotateInShelves>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+  <defName>BotchJob_DivineOrderStaffThrown</defName>
+	<thingClass>Projectile_Explosive</thingClass>
+    <label>divine blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/BotchJob_DivineOrderStaffThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>5</explosionRadius>
+      <damageDef>BotchJob_DivineOrderStaffBlast</damageDef>
+      <screenShakeFactor>5</screenShakeFactor>
+	  <explosionEffect>BotchJob_StaffBlastEffect</explosionEffect>
+	  <speed>100</speed>
+	  <flyOverhead>true</flyOverhead>
+    </projectile>
+  </ThingDef>
+  
+  <DamageDef>
+    <defName>BotchJob_DivineOrderStaffBlast</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>divine judgement</label>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>true</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been incinerated by divine light.</deathMessage>
+    <hediff>Burn</hediff>
+    <armorCategory>Heat</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>100</defaultDamage>
+	<buildingDamageFactorImpassable>3</buildingDamageFactorImpassable>
+	<buildingDamageFactorPassable>3</buildingDamageFactorPassable>
+    <defaultArmorPenetration>0.5</defaultArmorPenetration>
+    <explosionHeatEnergyPerCell>150</explosionHeatEnergyPerCell>
+    <explosionCellFleck>DustPuff</explosionCellFleck>
+    <explosionColorCenter>(1, 0.9, 0.5)</explosionColorCenter>
+    <explosionColorEdge>(1, 1, 0.8)</explosionColorEdge>
+    <soundExplosion>BotchJob_DivineImpact</soundExplosion>
+    <combatLogRules>Damage_Flame</combatLogRules>
+	<expolosionPropagationSpeed>0.5</expolosionPropagationSpeed>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	<additionalHediffs>
+	<li>
+        <hediff>BotchJob_BlindingFlash</hediff>
+        <severityPerDamageDealt>0.1</severityPerDamageDealt>
+        <inverseStatScaling>true</inverseStatScaling>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  
+  
+<!-- ==================== Staff Effects =================== -->
+
+  
+  <ThingDef ParentName="MoteBase">
+<defName>BotchJob_StaffChargeMote</defName>
+<thingClass>MoteAttached</thingClass>
+<altitudeLayer>MoteLow</altitudeLayer>
+<drawOffscreen>true</drawOffscreen>
+<mote>
+<fadeInTime>5</fadeInTime>
+<solidTime>9999</solidTime>
+<fadeOutTime>3</fadeOutTime>
+<needsMaintenance>true</needsMaintenance>
+</mote>
+<graphicData>
+<texPath>Things/Mote/DivineStaff_ChargeGlow</texPath>
+<graphicClass>Graphic_Mote</graphicClass>
+<shaderType>MoteGlow</shaderType>
+<drawSize>3</drawSize>
+</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="MoteBase">
+<defName>BotchJob_StaffTargetMote</defName>
+<thingClass>MoteThrown</thingClass>
+<altitudeLayer>MoteOverhead</altitudeLayer>
+<mote>
+<solidTime>99999</solidTime>
+<fadeInTime>6</fadeInTime>
+<fadeOutTime>2</fadeOutTime>
+<needsMaintenance>True</needsMaintenance>
+<fadeOutUnmaintained>True</fadeOutUnmaintained>
+</mote>
+<graphicData>
+<graphicClass>Graphic_Mote</graphicClass>
+<shaderType>MoteGlow</shaderType>
+<color>(255, 255, 255)</color>
+<texPath>Things/Mote/StaffRay</texPath>
+<drawSize>(8, 8)</drawSize>
+</graphicData>
+</ThingDef>
+
+<EffecterDef>
+<defName>BotchJob_StaffBlastEffect</defName>
+<children>
+<li>
+<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+<moteDef>Mote_StaffBlastInner</moteDef>
+<scale>2~2</scale>
+</li>
+<li>
+<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+<moteDef>Mote_StaffBlastRing</moteDef>
+<scale>2~2</scale>
+</li>
+<li>
+<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+<moteDef>Mote_StaffBlastColumn</moteDef>
+<scale>3~3</scale>
+<angle>0</angle>
+<rotation>0</rotation>
+<positionOffset>(0, 0, 6)</positionOffset>
+<spawnLocType>OnSource</spawnLocType>
+</li>
+</children>
+</EffecterDef>
+
+<ThingDef ParentName="MoteBase">
+<defName>Mote_StaffBlastInner</defName>
+<graphicData>
+<texPath>Things/Mote/StaffBlastInner</texPath>
+<shaderType>MoteGlow</shaderType>
+<drawSize>2</drawSize>
+</graphicData>
+<altitudeLayer>MoteOverhead</altitudeLayer>
+<drawOffscreen>true</drawOffscreen>
+<mote>
+<fadeInTime>0.1</fadeInTime>
+<solidTime>0</solidTime>
+<fadeOutTime>4</fadeOutTime>
+<growthRate>0.1</growthRate>
+</mote>
+</ThingDef>
+
+<ThingDef ParentName="MoteBase">
+<defName>Mote_StaffBlastRing</defName>
+<graphicData>
+<texPath>Things/Mote/StaffBlastRing</texPath>
+<shaderType>MoteGlow</shaderType>
+</graphicData>
+<altitudeLayer>MoteOverhead</altitudeLayer>
+<drawOffscreen>true</drawOffscreen>
+<mote>
+<fadeInTime>0.01</fadeInTime>
+<solidTime>0</solidTime>
+<fadeOutTime>2</fadeOutTime>
+<growthRate>10</growthRate>
+</mote>
+</ThingDef>
+
+<ThingDef ParentName="MoteBase">
+<defName>Mote_StaffBlastColumn</defName>
+<graphicData>
+<texPath>Things/Mote/StaffBlastColumn</texPath>
+<shaderType>MoteGlow</shaderType>
+<drawSize>(2, 6)</drawSize>
+</graphicData>
+<altitudeLayer>MoteOverhead</altitudeLayer>
+<drawOffscreen>true</drawOffscreen>
+<mote>
+<fadeInTime>0.1</fadeInTime>
+<solidTime>0</solidTime>
+<fadeOutTime>4</fadeOutTime>
+<growthRate>0.1</growthRate>
+</mote>
+</ThingDef>
+
+<ImpactSoundTypeDef>
+<defName>BotchJob_DivineImpact</defName>
+<playOnlyIfHitPawn>true</playOnlyIfHitPawn>
+<soundDef>BotchJob_DivineImpact</soundDef>
+</ImpactSoundTypeDef>
+<SoundDef>
+<defName>BotchJob_DivineImpact</defName>
+<context>MapOnly</context>
+<maxSimultaneous>2</maxSimultaneous>
+<subSounds>
+<li>
+<grains>
+<li Class="AudioGrain_Clip">
+<clipPath>Misc/DivineImpact</clipPath>
+</li>
+</grains>
+<volumeRange>50</volumeRange>
+<pitchRange>0.9~1.1</pitchRange>
+</li>
+</subSounds>
+</SoundDef>
+
+<SoundDef>
+<defName>BotchJob_DivineStaffCharge</defName>
+<context>MapOnly</context>
+<sustain>True</sustain>
+<priorityMode>PrioritizeNearest</priorityMode>
+<subSounds>
+<li>
+<tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+<muteWhenPaused>True</muteWhenPaused>
+<grains>
+<li Class="AudioGrain_Clip">
+<clipPath>Misc/DivineStaffCharge</clipPath>
+</li>
+</grains>
+<volumeRange>50</volumeRange>
+<pitchRange>0.9~1.1</pitchRange>
+</li>
+</subSounds>
+</SoundDef>
+
+
+
+</Defs>

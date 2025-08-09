@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Add your weapon patches here -->
+
+    <!-- DankPyon_MeleeWeapon_ButcherCleaver -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_NormalSize">
+        <defName>DankPyon_MeleeWeapon_ButcherCleaver</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_MeleeWeapon_Hatchet -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_NormalSize">
+        <defName>DankPyon_MeleeWeapon_Hatchet</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_MeleeWeapon_Handaxe -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_NormalSize">
+        <defName>DankPyon_MeleeWeapon_Handaxe</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_MeleeWeapon_FightingAxe -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_NormalSize">
+        <defName>DankPyon_MeleeWeapon_FightingAxe</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_MeleeWeapon_WoodcuttersAxe -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_Oversize">
+        <defName>DankPyon_MeleeWeapon_WoodcuttersAxe</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_MeleeWeapon_Bardiche -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_Oversize">
+        <defName>DankPyon_MeleeWeapon_Bardiche</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_MeleeWeapon_Greataxe -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_Oversize">
+        <defName>DankPyon_MeleeWeapon_Greataxe</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_MeleeWeapon_Longaxe -->
+    <ThingDef ParentName="DankPyon_Base_SharpAxe_Oversize">
+        <defName>DankPyon_MeleeWeapon_Longaxe</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+
+    <!-- DankPyon_Bow_Hunting -->
+    <ThingDef ParentName="BaseWeaponNeolithic">
+        <defName>DankPyon_Bow_Hunting</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Bow_War -->
+    <ThingDef ParentName="BaseWeaponNeolithic">
+        <defName>Bow_War</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+
+    <!-- DankPyon_Crossbow -->
+    <ThingDef ParentName="BaseWeaponNeolithic">
+        <defName>DankPyon_Crossbow</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_CrossbowHeavy -->
+    <ThingDef ParentName="BaseWeaponNeolithic">
+        <defName>DankPyon_CrossbowHeavy</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DankPyon_Handgonne -->
+    <ThingDef ParentName="BaseMakeableGun">
+        <defName>DankPyon_Handgonne</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+
+    <!-- BotchJob_DivineOrderMace -->
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>BotchJob_DivineOrderMace</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderShortsword -->
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>BotchJob_DivineOrderShortsword</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderLongsword -->
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>BotchJob_DivineOrderLongsword</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderBattleStandard -->
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>BotchJob_DivineOrderBattleStandard</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderWarhammer -->
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>BotchJob_DivineOrderWarhammer</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderGreatsword -->
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>BotchJob_DivineOrderGreatsword</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderPistol -->
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>BotchJob_DivineOrderPistol</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderCrossbow -->
+    <ThingDef ParentName="BaseWeaponNeolithic">
+        <defName>BotchJob_DivineOrderCrossbow</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderHandCrossbow -->
+    <ThingDef ParentName="BaseWeaponNeolithic">
+        <defName>BotchJob_DivineOrderHandCrossbow</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineOrderCleansingConcoction -->
+    <ThingDef ParentName="BaseMakeableGrenade">
+        <defName>BotchJob_DivineOrderCleansingConcoction</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- BotchJob_DivineJudgementStaff -->
+    <ThingDef ParentName="BaseMeleeWeapon">
+        <defName>BotchJob_DivineJudgementStaff</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+
+    <!-- DevDesigner_Blood_MeleeWeapon_Longsword -->
+    <ThingDef ParentName="DevDesigner_Base_SharpSword_Oversize">
+        <defName>DevDesigner_Blood_MeleeWeapon_Longsword</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword -->
+    <ThingDef ParentName="DevDesigner_Base_SharpSword_Oversize">
+        <defName>DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DevDesigner_Blood_MeleeWeapon_PikeStandard -->
+    <ThingDef ParentName="DevDesigner_PikeBase">
+        <defName>DevDesigner_Blood_MeleeWeapon_PikeStandard</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- DevDesigner_Blood_MeleeWeapon_Sword -->
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>DevDesigner_Blood_MeleeWeapon_Sword</defName>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+
+</Defs>

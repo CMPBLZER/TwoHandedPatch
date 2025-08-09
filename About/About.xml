@@ -1,0 +1,25 @@
+<ModMetaData>
+  <name>TwoHandedPatch</name>
+  <author>YourName</author>
+  <url>https://github.com/YourGitHub/TwoHandedPatch</url>
+  <description>
+    This mod adds support for two-handed weapons in RimWorld. It includes various patches and improvements to enhance the gameplay experience with two-handed weapons.
+  </description>
+  <targetVersion>1.5</targetVersion>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Harmony</li>
+  </loadAfter>
+  <packageId>TwoHandedPatch</packageId>
+  <modId>TwoHandedPatch</modId>
+</ModMetaData>
