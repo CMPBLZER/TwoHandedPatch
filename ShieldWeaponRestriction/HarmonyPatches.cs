@@ -14,10 +14,11 @@ namespace ShieldWeaponRestriction
         }
     }
 
-    [HarmonyPatch(typeof(Pawn_EquipmentTracker), nameof(Pawn_EquipmentTracker.TryAddEquipment))]
-    public static class Patch_TryAddEquipment
+    [HarmonyPatch(typeof(Pawn_EquipmentTracker))]
+    [HarmonyPatch("TryAddPrimaryEquipment")]
+    public static class Patch_TryAddPrimaryEquipment
     {
-        static bool Prefix(Pawn_EquipmentTracker __instance, ThingWithComps newEq, bool dropReplacedEquipment, ref bool __result)
+        static bool Prefix(Pawn_EquipmentTracker __instance, ThingWithComps newEq, ref bool __result)
         {
             var pawn = __instance.pawn;
 
