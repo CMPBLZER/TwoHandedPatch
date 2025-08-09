@@ -4,7 +4,7 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>ShieldWeaponRestriction</AssemblyName>
     <RootNamespace>ShieldWeaponRestriction</RootNamespace>
-    <OutputPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TwoHandedPatch\ShieldWeaponRestriction\Assemblies\</OutputPath>
+    <OutputPath>Assemblies\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,11 +22,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TwoHandedPatch\Libs\0Harmony.dll</HintPath>
+      <HintPath>..\Libs\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VFECore">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaExpandedFramework\Assemblies\VFECore.dll</HintPath>
+      <HintPath>Assemblies\VFECore.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
